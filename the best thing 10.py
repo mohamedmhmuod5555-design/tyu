@@ -8,7 +8,7 @@ if os.path.exists("level_number.txt"):
   if rf ==""or rf=="0" or rf=="0.0":
     file=1
   else:
-   file=int(float(rf))
+   file=int(rf)
 
 else:
  file=1
