@@ -11,10 +11,10 @@ if os.path.exists("level_number.txt"):
    file=float(rf)
 else:
  file=1
-if 'ran' not in st.session_state or st.session_state.ran < 1:
-  st.session_state.ran=20*st.session_state.level
 if 'level' not in st.session_state:
   st.session_state.level=file
+if 'ran' not in st.session_state or st.session_state.ran < 1:
+  st.session_state.ran=20*st.session_state.level
 if 'num' not in st.session_state:
   st.session_state.num=0
 if 'sc' not in st.session_state:
