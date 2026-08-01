@@ -43,7 +43,7 @@ if sign=='*':
  sc=num1*num2
 if sign=='/':
  sc=num1//num2 
-st.title("Welcome  ")
+st.title("Welcome to math game")
 st.write(num1,sign,num2)
 number=st.number_input("ادخل النتيجه ",step=1)
 if st.button("تأكيد التخمين "):
