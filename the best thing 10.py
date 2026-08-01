@@ -45,7 +45,7 @@ if sign=='/':
  sc=num1//num2 
 st.title("Welcome to Math Game ")
 st.write(num1,sign,num2)
-number=st.number_input("ادخل النتيجه ",step=1,format%d)
+number=st.number_input("ادخل النتيجه ",step=1,format="%d")
 if st.button("تأكيد التخمين "):
   st.session_state.count += 1
   if number == sc:
