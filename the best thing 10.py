@@ -13,7 +13,7 @@ if os.path.exists("level_number.txt"):
 else:
  file=1
 if 'level' not in st.session_state:
-  st.session_state.level=file
+  st.session_state.level=int(file)
 if 'ran' not in st.session_state or st.session_state.ran < 1:
   st.session_state.ran=int(20*st.session_state.level)
 if 'num' not in st.session_state:
