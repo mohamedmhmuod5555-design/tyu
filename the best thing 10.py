@@ -8,7 +8,8 @@ if os.path.exists("level_number.txt"):
   if rf ==""or rf=="0" or rf=="0.0":
     file=1
   else:
-   file=float(rf)
+   file=int(float(rf))
+
 else:
  file=1
 if 'level' not in st.session_state:
